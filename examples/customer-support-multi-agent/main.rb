@@ -464,9 +464,9 @@ class BillingAgent < DSPy::Module
     super
 
     # Combine user info, KB, and ticket tools
-    user_tools = UserInfoToolset.new.class.to_tools
+    user_tools = UserInfoToolset.to_tools
     kb_tools = KnowledgeBaseToolset.to_tools
-    ticket_tools = TicketToolset.new.class.to_tools
+    ticket_tools = TicketToolset.to_tools
 
     @agent = DSPy::ReAct.new(
       BillingSignature,
