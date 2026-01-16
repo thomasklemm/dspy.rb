@@ -440,7 +440,7 @@ class TechnicalSupportAgent < DSPy::Module
 
     # Combine KB and ticket tools
     kb_tools = KnowledgeBaseToolset.to_tools
-    ticket_tools = TicketToolset.new.class.to_tools
+    ticket_tools = TicketToolset.to_tools
 
     @agent = DSPy::ReAct.new(
       TechnicalSupportSignature,
