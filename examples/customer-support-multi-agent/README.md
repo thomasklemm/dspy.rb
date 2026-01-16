@@ -77,6 +77,7 @@ Uses `ReAct` with user info, KB, and ticket tools to:
 - Help with password resets
 - Manage account settings
 - Handle account-related queries
+- Serve as fallback for general support queries
 
 ### 4. **CoordinatorAgent**
 
