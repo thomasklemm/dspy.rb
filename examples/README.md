@@ -24,6 +24,7 @@ ANTHROPIC_API_KEY=your-anthropic-key
 - **`basic_search_agent.rb`** — ReAct agent that calls a course-search tool and returns typed `Course` structs, highlighting structured outputs.
 - **`react_loop/`** — Calculator/unit conversion/date tools wired into a ReAct loop with observability enabled.
 - **`coffee-shop-agent/`** — Conversational ordering bot with short-term memory. Run `bundle exec ruby coffee-shop-agent/coffee_shop_agent.rb`.
+- **`customer-support-multi-agent/`** — Production-ready multi-agent customer support system with intelligent routing, specialized agents (Technical, Billing, Account), and custom toolsets (Knowledge Base, Tickets, User Info). Demonstrates agent coordination, type-safe operations with Sorbet enums/structs, and stateful ticket management.
 - **`github-assistant/`** — GitHub-focused helper that chains CLI actions (requires a GitHub token in your environment). See the folder README for setup.
 - **`deep_research_cli/`** — Terminal chat experience for DeepSearch + DeepResearch with Shopify `CLI::UI` and live token/status metrics. See the example README for setup and tests.
 
