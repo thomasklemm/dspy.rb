@@ -17,8 +17,7 @@ TriageAgent (Analyzes & Categorizes)
      ↓
      ├─→ TechnicalSupportAgent
      ├─→ BillingAgent
-     ├─→ AccountAgent
-     └─→ GeneralSupportAgent
+     └─→ AccountAgent (also handles General queries)
 ```
 
 ## Key Components
